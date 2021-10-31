@@ -1,0 +1,13 @@
+{
+  "extends": ["prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+    // "quotes": ["error", "double"]
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": "latest"
+  }
+  // "ignorePatterns": ["webpack.*.js"]
+}
